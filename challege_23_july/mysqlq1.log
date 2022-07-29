@@ -1,0 +1,67 @@
+INFO 2022-07-28 22:00:59,465 asdfghjkhjghfd
+ERROR 2022-07-28 22:00:59,492 fuck you
+INFO 2022-07-28 22:00:59,493 Creating inside a database database
+ERROR 2022-07-28 22:00:59,493 Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:/Users/Ankur  Yadav/Documents/jupyter/Untitled Folder 1/DS_Lectures_database_lectures/challenges/q1.py", line 44, in create_tables
+    mydb.commit()
+  File "C:\anaconda3\envs\DS_Lectures_database_lectures\lib\site-packages\mysql\connector\connection_cext.py", line 425, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+INFO 2022-07-28 22:01:52,744 asdfghjkhjghfd
+INFO 2022-07-28 22:01:52,774 Creating inside a database database
+ERROR 2022-07-28 22:01:52,775 Commands out of sync; you can't run this command now
+Traceback (most recent call last):
+  File "C:/Users/Ankur  Yadav/Documents/jupyter/Untitled Folder 1/DS_Lectures_database_lectures/challenges/q1.py", line 44, in create_tables
+    mydb.commit()
+  File "C:\anaconda3\envs\DS_Lectures_database_lectures\lib\site-packages\mysql\connector\connection_cext.py", line 425, in commit
+    self._cmysql.commit()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+INFO 2022-07-28 22:02:59,639 asdfghjkhjghfd
+INFO 2022-07-28 22:02:59,661 Creating inside a database database
+ERROR 2022-07-28 22:02:59,662 1046 (3D000): No database selected
+Traceback (most recent call last):
+  File "C:\anaconda3\envs\DS_Lectures_database_lectures\lib\site-packages\mysql\connector\connection_cext.py", line 535, in cmd_query
+    self._cmysql.query(query,
+_mysql_connector.MySQLInterfaceError: No database selected
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Ankur  Yadav/Documents/jupyter/Untitled Folder 1/DS_Lectures_database_lectures/challenges/q1.py", line 41, in create_tables
+    cursor.execute(f"create table Attribute (Dress_ID int, Style varchar(30),Price varchar(30),Rating float,Size varchar(10),Season varchar(20),NeckLine varchar(20),SleeveLength varchar(30),waiseline varchar(30), Material varchar(30), FabricType varchar(30), Decoration varchar(30),PatternType varchar(30),Recommendation int)")
+  File "C:\anaconda3\envs\DS_Lectures_database_lectures\lib\site-packages\mysql\connector\cursor_cext.py", line 269, in execute
+    result = self._cnx.cmd_query(stmt, raw=self._raw,
+  File "C:\anaconda3\envs\DS_Lectures_database_lectures\lib\site-packages\mysql\connector\connection_cext.py", line 540, in cmd_query
+    raise errors.get_mysql_exception(exc.errno, msg=exc.msg,
+mysql.connector.errors.ProgrammingError: 1046 (3D000): No database selected
+INFO 2022-07-28 22:03:52,551 asdfghjkhjghfd
+INFO 2022-07-28 22:03:52,570 Creating inside a database database
+ERROR 2022-07-28 22:03:52,571 1050 (42S01): Table 'attribute' already exists
+Traceback (most recent call last):
+  File "C:\anaconda3\envs\DS_Lectures_database_lectures\lib\site-packages\mysql\connector\connection_cext.py", line 535, in cmd_query
+    self._cmysql.query(query,
+_mysql_connector.MySQLInterfaceError: Table 'attribute' already exists
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Ankur  Yadav/Documents/jupyter/Untitled Folder 1/DS_Lectures_database_lectures/challenges/q1.py", line 41, in create_tables
+    cursor.execute(f"create table challenge.Attribute (Dress_ID int, Style varchar(30),Price varchar(30),Rating float,Size varchar(10),Season varchar(20),NeckLine varchar(20),SleeveLength varchar(30),waiseline varchar(30), Material varchar(30), FabricType varchar(30), Decoration varchar(30),PatternType varchar(30),Recommendation int)")
+  File "C:\anaconda3\envs\DS_Lectures_database_lectures\lib\site-packages\mysql\connector\cursor_cext.py", line 269, in execute
+    result = self._cnx.cmd_query(stmt, raw=self._raw,
+  File "C:\anaconda3\envs\DS_Lectures_database_lectures\lib\site-packages\mysql\connector\connection_cext.py", line 540, in cmd_query
+    raise errors.get_mysql_exception(exc.errno, msg=exc.msg,
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'attribute' already exists
+INFO 2022-07-28 22:04:16,361 asdfghjkhjghfd
+INFO 2022-07-28 22:04:16,384 Creating inside a database database
+INFO 2022-07-28 22:18:53,022 asdfghjkhjghfd
+INFO 2022-07-28 22:18:53,046 Creating dress table
+INFO 2022-07-28 22:18:53,060 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '29/8/2013 int,	31/8/2013 int,	2/9/2013 int,	4/9/2013 int,	6/9/2013 int,	8/9/2013' at line 1
+INFO 2022-07-28 22:23:03,075 asdfghjkhjghfd
+INFO 2022-07-28 22:23:03,099 Creating dress table
+INFO 2022-07-28 22:42:25,586 database not connected
+INFO 2022-07-29 21:39:23,695 Creating inside a database database
+INFO 2022-07-29 22:00:06,668 Creating inside a database database
+INFO 2022-07-29 22:02:09,068 Creating inside a database database
+INFO 2022-07-29 22:03:54,435 Creating inside a database database
