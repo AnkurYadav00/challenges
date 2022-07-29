@@ -38,7 +38,7 @@ print(df_js)
 #################################################################################
 #################5.Store this dataset into mongodb in a single go.###############
 mon_db = pymongo.MongoClient(
-    "mongodb+srv://ankuryadav:mongodb123@cluster0.lc3s4.mongodb.net/?retryWrites=true&w=majority")
+    "mongodb+srv://USER:PASSWORD@cluster0.lc3s4.mongodb.net/?retryWrites=true&w=majority")
 db = mon_db.test
 print(db)
 
